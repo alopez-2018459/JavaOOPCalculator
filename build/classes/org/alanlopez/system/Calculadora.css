@@ -1,0 +1,164 @@
+
+
+.menu-bar {
+    -fx-background-color: black ;
+    -fx-opacity: 0.5;
+    -fx-border-width: 2.0;
+
+}
+.menu-bar .label {
+    -fx-font-size: 14.0 pt;
+    -fx-font-family: "Century Gothic";
+    -fx-text-fill: white;
+    -fx-font-weight: bold; 
+    -fx-padding: 10.0px;
+
+}
+
+.menu-bar .menu-button:hover, .menu-bar .menu-button:focused, .menu-bar .menu-button:showing {
+    -fx-background: rgb(104, 104, 104) ;
+    -fx-opacity: 0.5;
+    -fx-text-fill: white;
+}
+
+.menu-item {
+    -fx-padding: 0.0em 0.0em 0.0em 0.0em;
+    -fx-text-fill: rgb(235, 224, 224);
+    -fx-background: rgb(131, 131, 131) ;
+}
+.menu-item .label{
+    -fx-font-size: 14.0 pt;
+    -fx-text-fill: black;
+}
+.menu-item .label:hover{
+    -fx-font-size: 14.0 pt;
+    -fx-background: rgb(90, 90, 90) ;
+    -fx-text-fill: white;
+}
+.context-menu {
+    -fx-skin: "com.sun.javafx.scene.control.skin.ContextMenuSkin";
+    -fx-background-color:rgb(61, 61, 61) ;
+    -fx-border-width: 0.2px;
+    -fx-border-color: black;
+    /** -fx-background-insets: 0.0, 1.0, 2.0;
+    -fx-background-radius: 0.0 6.0 6.0 6.0, 0.0 5.0 5.0 5.0, 0.0 4.0 4.0 4.0;
+    -fx-padding: 0.333333em 0.083333em 0.666667em 0.083333em; 
+    -fx-opacity: 0.9;*/
+}
+
+.button1 {
+  -fx-background-color: rgba(82, 82, 82, 0.781);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1,1,1;
+}
+
+.button1:hover {
+  -fx-background-color: rgba(39, 39, 39, 0.781);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1,1,1;
+}
+
+.button1:pressed {
+  -fx-background-color: rgba(133, 133, 133, 0.781);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1,1,1;
+}
+
+.button2 {
+  -fx-background-color: rgba(197, 95, 0, 0.589);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1 3 30 0;
+}
+
+.button2:hover {
+  -fx-background-color: rgb(255, 123, 0);
+  -fx-text-fill: #080808;
+  -fx-background-radius: 1 3 30 0;
+}
+
+.button2:pressed {
+  -fx-background-color: rgb(255, 255, 255);
+  -fx-text-fill: #000000;
+  -fx-background-radius: 1 3 30 0;
+}
+
+.button3 {
+  -fx-background-color: rgba(197, 95, 0, 0.568);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1;
+}
+
+.button3:hover {
+  -fx-background-color: rgb(255, 123, 0);
+  -fx-text-fill: #2e2e2e;
+  -fx-background-radius: 1;
+}
+
+.button3:pressed {
+  -fx-background-color: rgb(255, 255, 255);
+  -fx-text-fill: #000000;
+  -fx-background-radius: 1;
+}
+
+.button4 {
+  -fx-background-color: rgba(34, 34, 34, 0.596);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1;
+}
+
+.button4:hover {
+  -fx-background-color: rgba(83, 83, 83, 0.596);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 1;
+}
+
+.button4:pressed {
+  -fx-background-color: rgba(124, 124, 124, 0.904);
+  -fx-text-fill: #000000;
+  -fx-background-radius: 1;
+}
+
+.button5 {
+  -fx-background-color: rgba(88, 86, 86, 0.596);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 30;
+}
+
+.button5:hover {
+  -fx-background-color: rgba(136, 136, 136, 0.596);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 30;
+}
+
+
+.button5:pressed {
+  -fx-background-color: rgb(255, 255, 255);
+  -fx-text-fill: #000000;
+  -fx-background-radius: 30;
+}
+
+.button6 {
+  -fx-background-color: rgb(255, 123, 0);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 30;
+}
+
+.button6:hover {
+  -fx-background-color: rgb(255, 255, 255);
+  -fx-text-fill: #000000;
+  -fx-background-radius: 30;
+}
+
+.button6:pressed {
+  -fx-background-color: rgba(255, 145, 42, 0.904);
+  -fx-text-fill: #d6d6d6;
+  -fx-background-radius: 30;
+}
+
+
+
+.text-field {
+  -fx-background-color: #000000 , white , white;
+  -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+
